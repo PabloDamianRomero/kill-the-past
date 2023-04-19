@@ -216,6 +216,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
+    padding: 100px 0;
 }
 
 .four {
@@ -332,6 +333,30 @@ section {
 
 
 /* -------------------------------------- */
+.txt-white{
+    color: #fff;
+}
+
+.section p {
+    margin: 20px 0;
+    font-size: 1.1rem;
+    padding: 0 50px;
+}
+
+.three p {
+    text-align: left;
+}
+
+#bio img {
+    width: 35%;
+    float: left;
+    margin: 0;
+    margin-bottom: 8px;
+    margin-right: 22px;
+}
+
+
+
 .italic {
     font-style: italic;
     font-weight: 400;
