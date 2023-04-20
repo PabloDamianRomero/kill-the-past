@@ -42,7 +42,8 @@ a {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    margin-top: -49px;
+    /* margin-top: -49px; */
+    margin-top: -56px;
     padding: 0vh 4vw;
 }
 
@@ -341,13 +342,12 @@ section {
 
 .section p {
     margin: 20px 0;
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
+    font-size: 1.1em;
     padding: 0 50px;
 }
 
-.txt-center{
 
-}
 
 .txt-left{
     text-align: left;
