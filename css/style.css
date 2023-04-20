@@ -1,7 +1,8 @@
 /* Basic styling */
 html {
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
+
 
 * {
     margin: 0;
