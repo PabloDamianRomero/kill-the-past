@@ -1,6 +1,6 @@
 /* Basic styling */
 html {
-    /* scroll-behavior: smooth; */
+    
 }
 
 
@@ -188,12 +188,12 @@ section {
 }
 
 .titular {
-    text-align: center;
     margin: 0 auto;
     padding: 0 5%;
 }
 
 .titular h1 {
+    text-align: center;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 3rem;
 }
@@ -209,6 +209,7 @@ section {
     background-size: cover;
     background-blend-mode: overlay;
     background-position-x: unset;
+    padding: 150px 0;
 }
 
 .three {
@@ -344,7 +345,11 @@ section {
     padding: 0 50px;
 }
 
-.three p {
+.txt-center{
+
+}
+
+.txt-left{
     text-align: left;
 }
 
