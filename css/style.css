@@ -1,7 +1,5 @@
 /* Basic styling */
-html {
-    
-}
+html {}
 
 
 * {
@@ -41,10 +39,11 @@ a {
 .nav__list {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
-    /* margin-top: -49px; */
-    margin-top: -56px;
     padding: 0vh 4vw;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0;
 }
 
 .nav__link {
@@ -290,6 +289,8 @@ section {
         padding: 135px;
         background-color: #111;
         width: 100%;
+        transform: none;
+        position: initial;
     }
 
     .nav__link {
@@ -336,7 +337,7 @@ section {
 
 
 /* -------------------------------------- */
-.txt-white{
+.txt-white {
     color: #fff;
 }
 
@@ -349,7 +350,7 @@ section {
 
 
 
-.txt-left{
+.txt-left {
     text-align: left;
 }
 
